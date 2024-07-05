@@ -2,7 +2,7 @@ import Cors from 'cors';
 
 const cors = Cors({
   methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE'],
-  origin: 'https://expo-hub.vercel.app'
+  origin: '*',
 });
 
 function runMiddleware(req, res, fn) {
