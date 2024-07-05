@@ -1,4 +1,4 @@
-import { audience_types } from '../data';
+import { audience_types } from '../../data';
 import cors, { runMiddleware } from '../corsMiddleware';
 
 export default async function handler(req, res) {
