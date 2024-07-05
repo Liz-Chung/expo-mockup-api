@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "mockup/*.js",
+      "src": "mockup/**/*.js",
       "use": "@vercel/node"
     }
   ],
