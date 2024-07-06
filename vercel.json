@@ -50,19 +50,19 @@
       "use": "@vercel/node"
     },
     {
-      "src": "api/users/[id].js",
+      "src": "api/users/[id]/*.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/users/index.js",
+      "src": "api/users/*.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/wishlists/[id].js",
+      "src": "api/wishlists/[id]/*.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/wishlists/index.js",
+      "src": "api/wishlists/*.js",
       "use": "@vercel/node"
     }
   ],
@@ -120,16 +120,32 @@
       "dest": "/api/users/index.js"
     },
     {
-      "src": "/api/users/(.*)",
-      "dest": "/api/users/[id].js"
+      "src": "/api/users/create",
+      "dest": "/api/users/create.js"
+    },
+    {
+      "src": "/api/users/(.*)/update",
+      "dest": "/api/users/[id]/update.js"
+    },
+    {
+      "src": "/api/users/(.*)/delete",
+      "dest": "/api/users/[id]/delete.js"
     },
     {
       "src": "/api/wishlists",
       "dest": "/api/wishlists/index.js"
     },
     {
-      "src": "/api/wishlists/(.*)",
-      "dest": "/api/wishlists/[id].js"
+      "src": "/api/wishlists/create",
+      "dest": "/api/wishlists/create.js"
+    },
+    {
+      "src": "/api/wishlists/(.*)/update",
+      "dest": "/api/wishlists/[id]/update.js"
+    },
+    {
+      "src": "/api/wishlists/(.*)/delete",
+      "dest": "/api/wishlists/[id]/delete.js"
     }
   ]
 }
