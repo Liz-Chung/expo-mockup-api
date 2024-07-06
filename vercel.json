@@ -68,12 +68,52 @@
   ],
   "routes": [
     {
+      "src": "/api/audience_types",
+      "dest": "/api/audience_types/index.js"
+    },
+    {
+      "src": "/api/audience_types/(.*)",
+      "dest": "/api/audience_types/[id].js"
+    },
+    {
+      "src": "/api/categories",
+      "dest": "/api/categories/index.js"
+    },
+    {
+      "src": "/api/categories/(.*)",
+      "dest": "/api/categories/[id].js"
+    },
+    {
       "src": "/api/exhibitions",
       "dest": "/api/exhibitions/index.js"
     },
     {
       "src": "/api/exhibitions/(.*)",
       "dest": "/api/exhibitions/[id].js"
+    },
+    {
+      "src": "/api/location_types",
+      "dest": "/api/location_types/index.js"
+    },
+    {
+      "src": "/api/location_types/(.*)",
+      "dest": "/api/location_types/[id].js"
+    },
+    {
+      "src": "/api/reviews",
+      "dest": "/api/reviews/index.js"
+    },
+    {
+      "src": "/api/reviews/(.*)",
+      "dest": "/api/reviews/[id].js"
+    },
+    {
+      "src": "/api/themes",
+      "dest": "/api/themes/index.js"
+    },
+    {
+      "src": "/api/themes/(.*)",
+      "dest": "/api/themes/[id].js"
     },
     {
       "src": "/api/users",
@@ -84,12 +124,12 @@
       "dest": "/api/users/[id].js"
     },
     {
-      "src": "/api/reviews",
-      "dest": "/api/reviews/index.js"
+      "src": "/api/wishlists",
+      "dest": "/api/wishlists/index.js"
     },
     {
-      "src": "/api/reviews/(.*)",
-      "dest": "/api/reviews/[id].js"
+      "src": "/api/wishlists/(.*)",
+      "dest": "/api/wishlists/[id].js"
     }
   ]
 }
