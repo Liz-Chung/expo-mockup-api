@@ -2,14 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/*/[id].js",
+      "src": "api/exhibitions/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/exhibitions/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/*/(.*)",
-      "dest": "/api/*/[id].js"
+      "src": "/api/exhibitions",
+      "dest": "/api/exhibitions/index.js"
+    },
+    {
+      "src": "/api/exhibitions/(.*)",
+      "dest": "/api/exhibitions/[id].js"
     }
   ]
 }
