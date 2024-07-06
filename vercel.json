@@ -2,22 +2,94 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/*/[id].js",
+      "src": "api/audience_types/[id].js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/*/index.js",
+      "src": "api/audience_types/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/categories/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/categories/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/exhibitions/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/exhibitions/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/location_types/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/location_types/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/reviews/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/reviews/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/themes/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/themes/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/users/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/users/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/wishlists/[id].js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/wishlists/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/*",
-      "dest": "/api/*/index.js"
+      "src": "/api/exhibitions",
+      "dest": "/api/exhibitions/index.js"
     },
     {
-      "src": "/api/*/(.*)",
-      "dest": "/api/$1/[id].js"
+      "src": "/api/exhibitions/(.*)",
+      "dest": "/api/exhibitions/[id].js"
+    },
+    {
+      "src": "/api/users",
+      "dest": "/api/users/index.js"
+    },
+    {
+      "src": "/api/users/(.*)",
+      "dest": "/api/users/[id].js"
+    },
+    {
+      "src": "/api/reviews",
+      "dest": "/api/reviews/index.js"
+    },
+    {
+      "src": "/api/reviews/(.*)",
+      "dest": "/api/reviews/[id].js"
     }
   ]
 }
