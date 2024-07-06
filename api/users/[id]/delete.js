@@ -1,11 +1,11 @@
-import { users } from '../../data';
-import cors, { runMiddleware } from '../../corsMiddleware';
+import { users } from '../../../data';
+import cors, { runMiddleware } from '../../../corsMiddleware';
 
 export default async function handler(req, res) {
   await runMiddleware(req, res, cors);
 
   const urlParts = req.url.split('/');
-  const id = urlParts[urlParts.length - 1];
+  const id = urlParts[urlParts.length - 2];
 
   if (!id) {
     return res.status(400).json({ message: 'ID is required' });

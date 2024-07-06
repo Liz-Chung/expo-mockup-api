@@ -1,11 +1,11 @@
-import { wishlists } from '../../../data';
-import cors, { runMiddleware } from '../../../corsMiddleware';
+import { wishlists } from '../../data';
+import cors, { runMiddleware } from '../../corsMiddleware';
 
 export default async function handler(req, res) {
   await runMiddleware(req, res, cors);
 
   const urlParts = req.url.split('/');
-  const id = urlParts[urlParts.length - 2];
+  const id = urlParts[urlParts.length - 1];
 
   if (!id) {
     return res.status(400).json({ message: 'ID is required' });
@@ -17,11 +17,10 @@ export default async function handler(req, res) {
     return res.status(400).json({ message: 'ID must be a valid number' });
   }
 
-  if (req.method === 'DELETE') {
-    const wishlistIndex = wishlists.findIndex(item => item.wishlist_id === wishlistId);
-    if (wishlistIndex > -1) {
-      const [deletedWishlist] = wishlists.splice(wishlistIndex, 1);
-      res.status(200).json(deletedWishlist);
+  if (req.method === 'GET') {
+    const wishlist = wishlists.find(item => item.wishlist_id === wishlistId);
+    if (wishlist) {
+      res.status(200).json(wishlist);
     } else {
       res.status(404).json({ message: 'Wishlist item not found' });
     }
