@@ -3,6 +3,8 @@ import Cors from 'cors';
 const cors = Cors({
   methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE'],
   origin: '*',
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization'],
 });
 
 function runMiddleware(req, res, fn) {
