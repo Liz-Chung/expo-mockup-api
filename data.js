@@ -193,7 +193,7 @@ export const exhibitions = [
     location_type_id: 4,
     start_date: '2024-09-01',
     end_date: '2024-10-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo002.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo002new.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -224,7 +224,7 @@ export const exhibitions = [
     location_type_id: 5,
     start_date: '2024-11-01',
     end_date: '2024-12-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo4.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo004.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -240,7 +240,7 @@ export const exhibitions = [
     location_type_id: 6,
     start_date: '2024-12-01',
     end_date: '2025-01-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo5.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo005.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -256,7 +256,7 @@ export const exhibitions = [
     location_type_id: 1,
     start_date: '2024-08-01',
     end_date: '2024-09-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo6.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo006.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -272,7 +272,7 @@ export const exhibitions = [
     location_type_id: 1,
     start_date: '2024-09-01',
     end_date: '2024-10-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo7.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo007.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -288,7 +288,7 @@ export const exhibitions = [
     location_type_id: 7,
     start_date: '2024-10-01',
     end_date: '2024-11-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo8.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo008.png',
     updated_at: new Date().toISOString()
   },
   {
@@ -303,7 +303,7 @@ export const exhibitions = [
     location_type_id: 2,
     start_date: '2024-11-01',
     end_date: '2024-12-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo9.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo009.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -319,7 +319,7 @@ export const exhibitions = [
     location_type_id: 1,
     start_date: '2024-12-01',
     end_date: '2025-01-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo10.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0010.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -335,7 +335,7 @@ export const exhibitions = [
     location_type_id: 8,
     start_date: '2024-08-01',
     end_date: '2024-09-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo11.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0011.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -351,7 +351,7 @@ export const exhibitions = [
     location_type_id: 9,
     start_date: '2024-09-01',
     end_date: '2024-10-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo12.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0012.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -383,7 +383,7 @@ export const exhibitions = [
     location_type_id: 1,
     start_date: '2024-11-01',
     end_date: '2024-12-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo14.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0014.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -399,7 +399,7 @@ export const exhibitions = [
     location_type_id: 10,
     start_date: '2024-12-01',
     end_date: '2025-01-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo15.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0015.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -415,7 +415,7 @@ export const exhibitions = [
     location_type_id: 2,
     start_date: '2024-08-01',
     end_date: '2024-09-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo16.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0016.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -431,7 +431,7 @@ export const exhibitions = [
     location_type_id: 3,
     start_date: '2024-09-01',
     end_date: '2024-10-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo17.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0017.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -447,7 +447,7 @@ export const exhibitions = [
     location_type_id: 1,
     start_date: '2024-10-01',
     end_date: '2024-11-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo18.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0018.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -463,7 +463,7 @@ export const exhibitions = [
     location_type_id: 2,
     start_date: '2024-11-01',
     end_date: '2024-12-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo19.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0019.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   },
@@ -479,7 +479,7 @@ export const exhibitions = [
     location_type_id: 6,
     start_date: '2024-12-01',
     end_date: '2025-01-15',
-    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo20.png',
+    image_url: 'https://fake-api-vervel.s3.ap-southeast-2.amazonaws.com/images/expo0020.png',
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   }
